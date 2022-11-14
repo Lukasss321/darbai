@@ -1,0 +1,20 @@
+body {
+  background-color: beige;
+  padding: 20px;
+  margin: 0;
+  border-collapse: collapse;
+}
+/* .row > :nth-child(odd) {
+  background: grey;
+  width: 15px;
+}
+.row > :nth-child(even) {
+  background: purple;
+  width: 15px;
+} */
+.col:nth-of-type(even) {
+  background-color: azure;
+}
+.col:nth-of-type(odd) {
+  background-color: green;
+}
